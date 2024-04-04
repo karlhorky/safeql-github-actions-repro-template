@@ -14,6 +14,7 @@
     "libpg-query": "^16.1.0"
   },
   "dependencies": {
+    "dotenv-safe": "^9.1.0",
     "postgres": "^3.4.4"
   }
 }

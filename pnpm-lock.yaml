@@ -8,6 +8,9 @@ importers:
 
   .:
     dependencies:
+      dotenv-safe:
+        specifier: ^9.1.0
+        version: 9.1.0(dotenv@16.4.5)
       postgres:
         specifier: ^3.4.4
         version: 3.4.4
@@ -519,6 +522,15 @@ packages:
   doctrine@3.0.0:
     resolution: {integrity: sha512-yS+Q5i3hBf7GBkd4KG8a7eBNNWNGLTaEwwYWUijIYM7zrlYDM0BFXHjjPWlWZ1Rg7UaddZeIDmi9jF3HmqiQ2w==}
     engines: {node: '>=6.0.0'}
+
+  dotenv-safe@9.1.0:
+    resolution: {integrity: sha512-2qwVAnUN+EDpu41pIK1XiJpHXKHV9Dnti3cE1EnUXT1/BV5+B7xuSZtgZ/4LExkCpp5F6BGikraezQL+8hKCOA==}
+    peerDependencies:
+      dotenv: '>= 8.2.0'
+
+  dotenv@16.4.5:
+    resolution: {integrity: sha512-ZmdL2rui+eB2YwhsWzjInR8LldtZHGDoQ1ugH85ppHKwpUHL7j7rN0Ti9NCnGiQbhaZ11FpR+7ao1dNsmduNUg==}
+    engines: {node: '>=12'}
 
   eastasianwidth@0.2.0:
     resolution: {integrity: sha512-I88TYZWc9XiYHRQ4/3c5rjjfgkjhLyW2luGIheGERbNQ6OY7yTybanSpDXZa8y7VUP9YmDcYa+eyq4ca7iLqWA==}
@@ -1846,6 +1858,12 @@ snapshots:
   doctrine@3.0.0:
     dependencies:
       esutils: 2.0.3
+
+  dotenv-safe@9.1.0(dotenv@16.4.5):
+    dependencies:
+      dotenv: 16.4.5
+
+  dotenv@16.4.5: {}
 
   eastasianwidth@0.2.0: {}
 

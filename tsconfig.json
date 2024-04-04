@@ -3,7 +3,7 @@
   "display": "UpLeveled Node + React TSConfig",
   "compilerOptions": {
     "lib": ["DOM", "DOM.Iterable", "ESNext"],
-    "target": "ES2015",
+    "target": "ESNext",
     "module": "NodeNext",
     "moduleDetection": "force",
     "resolveJsonModule": true,
