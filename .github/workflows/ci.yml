@@ -74,11 +74,6 @@ jobs:
       - name: Install dependencies
         run: pnpm install
 
-      # Remove .npmrc file again on Windows
-      # https://github.com/nodejs/node/issues/50753
-      - run: rm .npmrc
-        if: runner.os == 'Windows'
-
       # - run: pnpm migrate up
 
       - name: Run ESLint
