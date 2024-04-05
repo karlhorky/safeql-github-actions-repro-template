@@ -74,7 +74,7 @@ jobs:
       - name: Install dependencies
         run: pnpm install
 
-      # - run: pnpm migrate up
+      - run: pnpm migrate up
 
       - name: Run ESLint
         run: pnpm eslint . --max-warnings 0

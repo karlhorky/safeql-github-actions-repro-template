@@ -11,10 +11,10 @@
     "@typescript-eslint/parser": "^7.5.0",
     "@typescript-eslint/utils": "^7.5.0",
     "eslint": "^8.57.0",
+    "ley": "^0.8.1",
     "libpg-query": "^16.1.0"
   },
   "dependencies": {
-    "dotenv-safe": "^9.1.0",
     "postgres": "^3.4.4"
   }
 }

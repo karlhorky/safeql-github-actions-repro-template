@@ -1,8 +1,11 @@
 import postgres from 'postgres';
+import { Animal } from './migrations/001-animals.js';
 
 const sql = postgres();
 
-export async function getProducts() {
-  const products = await sql<{ col: number }[]>`SELECT 1 AS col`;
-  return products;
+export async function getAnimals() {
+  const animals = await sql<Animal[]>`
+    SELECT * FROM animals
+  `;
+  return animals;
 }
