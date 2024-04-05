@@ -5,7 +5,7 @@ const sql = postgres();
 
 export async function getAnimals() {
   const animals = await sql<Animal[]>`
-    SELECT * FROM animalssss
+    SELECT * FROM animals
   `;
   return animals;
 }
